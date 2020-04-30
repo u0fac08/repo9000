@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1588239043525" createdUser="root" id="31dab55e:171ca6bc956:-7eaa" selfDescribing="Subnet (192.168.137)" type="sub_net_resource" updatedTimestamp="1588239043525" updatedUser="root" version="1.0">
+   <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+   <resourceConfig subnet="192.168.137" user_sub_net_name="Subnet"/>
+</editableResource>
