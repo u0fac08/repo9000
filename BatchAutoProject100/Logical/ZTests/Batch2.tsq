@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1586423343869" createdUser="root" id="44426338:1715cf2f45c:-7e38" type="test_resource" updatedTimestamp="1588239534595" updatedUser="root" version="1.1">
+<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1586423343869" createdUser="root" id="44426338:1715cf2f45c:-7e38" type="test_resource" updatedTimestamp="1588240596624" updatedUser="root" version="1.1">
    <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
    <resourceConfig description="" name="">
       <testTree>
@@ -33,7 +33,7 @@
          </editableResource>
          <editableResource id="44426338:1715cf2f45c:-7b42" selfDescribing="Specify commands, scripts or programs to execute, either locally or on a remote machine.  Optionally specify assertions on the output and/or store it into tags." type="run_command_action" version="1.0">
             <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
-            <resourceConfig command="java -jar ExtractJobNumber.jar Flight02.log //192.168.137.133:50000/vtdb:&gt; f2.txt" description="" encoding="UTF-8" killAfter="Test" killProcess="false" name="&quot;java -jar ExtractJobNumber.jar Flight02.log //192.168.137.133:50000/vtdb:&gt; f2.txt&quot;" waitUntilComplete="true">
+            <resourceConfig command="java -jar ExtractJobNumber.jar Flight02.log //192.168.137.133:50000/vtdb:&gt; f2.txt" description="" enabled="false" encoding="UTF-8" killAfter="Test" killProcess="false" name="&quot;java -jar ExtractJobNumber.jar Flight02.log //192.168.137.133:50000/vtdb:&gt; f2.txt&quot;" waitUntilComplete="true">
                <remote connectionType="LOCAL" host="" password="#com.ghc.1!79d8" user="" userType="TAGGED" workingDir="/home/ibmsys1/RITBatchProcess"/>
                <fieldActionGroup>
                   <fieldAction enabled="false" type="1">
