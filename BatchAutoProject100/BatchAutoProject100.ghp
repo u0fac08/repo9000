@@ -2,14 +2,14 @@
    <rootEnvironmentConfig isOverridingSecretsNamespace="false" overridingSecretsNamespace=""/>
    <dateTimeConfig date="yyyy/MM/dd" dateTime="dd-MMM-yyyy HH:mm:ss" time="HH:mm:ss.SSS"/>
    <serverSettings ghRepositoryURL="https://localhost:5443/RTCP" trustSource="INBUILT_CA" trustStorePath="">
-      <dbConnectionParameters maxConnections="5" poolName="DefaultPoolName">
-         <connectionParams CICSEnv="false" MVSEnv="false" ZOSEnv="false" driverClass="" password="#com.ghc.1!2d37" recordFilters="" schema="" url="" user="">
-            <stubSettings maxProcCallCount="10000" maxResultSetRowCount="10000" maxRowCount="10000" password="#com.ghc.1!0200" procedureLearningBehaviour="1" schema="" url="" useIntegratedDB="true" user=""/>
-            <storedProcedureFilter catalogFilterEnabled="false" catalogFilterPattern="" procedureFilterEnabled="false" procedureFilterPattern="" schemaFilterEnabled="true" schemaFilterPattern="" storedProceduresRetrievalEnabled="false" useConnectionUsername="true"/>
+      <dbConnectionParameters maxConnections="1" poolName="DefaultPoolName">
+         <connectionParams CICSEnv="false" MVSEnv="false" ZOSEnv="false" driverClass="com.ibm.db2.jcc.DB2Driver" password="#com.ghc.1!41baA2EE7273112355220CB96A5C40E92110" recordFilters="" url="jdbc:db2://192.198.100.167:50000/samplepf" user="db2admin">
+            <stubSettings maxProcCallCount="10000" maxResultSetRowCount="10000" maxRowCount="10000" password="#com.ghc.1!1ff3" procedureLearningBehaviour="1" schema="" url="" useIntegratedDB="true" user=""/>
+            <storedProcedureFilter catalogFilterEnabled="false" catalogFilterPattern="" procedureFilterEnabled="false" procedureFilterPattern="" schemaFilterEnabled="true" schemaFilterPattern="db2admin" storedProceduresRetrievalEnabled="false" useConnectionUsername="true"/>
             <timestampFormatting timestampFormatZero="false" timestampFormattingEnabled="false" timestampPrecision="9"/>
          </connectionParams>
       </dbConnectionParameters>
-      <automationServer enabled="true" hostname="192.198.100.176.nip.io" port="443" projectId="1050" projectName="VirtualTraveler" publishResults="false" trustSource="TRUST_ALL" trustStorePassword="#com.ghc.1!b3b5" trustStorePath=""/>
+      <automationServer enabled="true" hostname="192.198.100.176.nip.io" port="443" projectId="1050" projectName="VirtualTraveler" publishResults="false" trustSource="TRUST_ALL" trustStorePassword="#com.ghc.1!706f" trustStorePath=""/>
    </serverSettings>
    <permissionsSettings autoLogin="true" host="" permFactId="ldap.permissions.factory.none" port="389" pswd="h3SlTHbOUBb2tV40i42jIT+jAJ9NvEjCnx7nrbazUAw=$ryx8uNr59/fbZ2cM4oop39v5snkZG14FN4HU4uxfkv0="/>
    <resultPublishers disableAll="false"/>
